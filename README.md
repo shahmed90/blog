@@ -3,7 +3,8 @@
 ## Local setup
 
 - Clone repo
-- Install `hugo` with `asdf` & leverage `.tool-versions`: Run `asdf install`
+- Install `hugo` & `pre-commit` with `asdf` & leverage `.tool-versions`: Run `asdf install`
+- Run `pre-commit install`
 - Run `hugo serve -D` to fire up the web server incl. draft pages and access at [http://localhost:1313](http://localhost:1313)
 
 ## Write blogpost
@@ -19,6 +20,8 @@
 ## Deployment
 
 Automated with GH Actions to GH Pages, don't break it! You might need to enable Pages initially, dunno if it will reset with ownership transfer.
+
+The deployment requires all pre-commits to succeed - you don't want to publish stuff with merge conflicts or similar...
 
 ## Updating the theme
 
