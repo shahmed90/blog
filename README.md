@@ -5,7 +5,7 @@
 - Clone repo
 - Install `hugo` & `pre-commit` with `asdf` & leverage `.tool-versions`: Run `asdf install`
 - Run `pre-commit install`
-- Run `hugo serve -D` to fire up the web server incl. draft pages and access at [http://localhost:1313](http://localhost:1313)
+- Run `--baseURL "http://localhost:1313/blog"` to fire up the web server incl. draft pages and access at [http://localhost:1313/blog](http://localhost:1313/blog)
 
 ## Write blogpost
 
