@@ -1,0 +1,51 @@
+title = "Sherief's Blog"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+
+
+theme = "blog-awesome"
+enableEmoji = true
+
+[params]
+  sitename = "Sherief's Blog"
+  defaultColor = "light" # dark or light
+  description = "Sherief's personal blog"
+  mainSections = ['posts']
+
+[params.author]
+  avatar = "avatar.png"
+  intro = "Welcome to my blog!"
+  name = "Sherief A."
+  description = "I'm the trouble starter, punkin' instigator, I'm the fear addicted, the danger illustrated"
+
+[[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sherief-ahmed-msc/"
+
+[[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/rickroll"
+
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url="/"
+    weight = 10
+  [[menu.main]]
+    name = 'Posts'
+    url="/posts/"
+    weight = 20
+  [[menu.main]]
+    name = 'About Me'
+    url = '/pages/about-me/'
+    weight = 30
+
+# enable code highlighting
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+googleAnalytics = '' # disable
